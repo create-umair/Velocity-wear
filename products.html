@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+<div class="logo">VelocityWear</div>
+
+<div class="nav-icons">
+<input id="searchInput" placeholder="Search products..." />
+</div>
+</header>
+
+<section class="featured">
+
+<h2>All Products</h2>
+
+<!-- FILTERS -->
+<div style="margin-bottom:20px;">
+<select id="categoryFilter">
+<option value="all">All</option>
+<option value="Shoes">Shoes</option>
+<option value="Clothing">Clothing</option>
+<option value="Accessories">Accessories</option>
+</select>
+
+<select id="sortFilter">
+<option value="default">Sort</option>
+<option value="low-high">Low → High</option>
+<option value="high-low">High → Low</option>
+</select>
+</div>
+
+<!-- PRODUCT GRID -->
+<div class="category-grid" id="productGrid"></div>
+
+</section>
+
+<script src="js/products.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Product Details | VelocityWear</title>
+
+<link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+
+<header class="header">
+
+<a href="index.html" class="logo">
+VelocityWear
+</a>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+</nav>
+
+</header>
+
+<section class="product-container">
+
+<div class="gallery">
+
+<img
+id="mainImage"
+class="main-image"
+src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1000"
+alt=""
+>
+
+<div class="thumbnails">
+
+<img
+src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300"
+onclick="changeImage(this.src)"
+>
+
+<img
+src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300"
+onclick="changeImage(this.src)"
+>
+
+<img
+src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300"
+onclick="changeImage(this.src)"
+>
+
+</div>
+
+</div>
+
+<div class="details">
+
+<h1>Velocity Runner Pro</h1>
+
+<div class="price">
+$129.99
+</div>
+
+<p class="description">
+Lightweight performance footwear built for
+speed, comfort, and durability.
+</p>
+
+<h3>Select Size</h3>
+
+<div class="sizes">
+
+<button class="size-btn">7</button>
+<button class="size-btn">8</button>
+<button class="size-btn">9</button>
+<button class="size-btn">10</button>
+<button class="size-btn">11</button>
+
+</div>
+
+<h3>Select Color</h3>
+
+<div class="colors">
+
+<div class="color black"></div>
+<div class="color red"></div>
+<div class="color blue"></div>
+
+</div>
+
+<h3>Quantity</h3>
+
+<div class="quantity">
+
+<button id="minus">-</button>
+
+<input
+type="number"
+value="1"
+id="qty"
+readonly
+>
+
+<button id="plus">+</button>
+
+</div>
+
+<button id="addCartBtn" class="cart-btn">
+Add To Cart
+</button>
+
+</div>
+
+</section>
+
+<section class="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review-card">
+★★★★★ Amazing comfort and fit.
+</div>
+
+<div class="review-card">
+★★★★★ Perfect for training.
+</div>
+
+<div class="review-card">
+★★★★☆ Great value.
+</div>
+
+</section>
+
+<section class="related">
+
+<h2>Related Products</h2>
+
+<div class="related-grid">
+
+<div class="related-card">
+<img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500">
+<h3>Sprint Max</h3>
+<p>$139</p>
+</div>
+
+<div class="related-card">
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500">
+<h3>Elite Runner</h3>
+<p>$119</p>
+</div>
+
+<div class="related-card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500">
+<h3>Velocity Pro</h3>
+<p>$129</p>
+</div>
+
+</div>
+
+</section>
+
+<script src="js/product.js"></script>
+
+</body>
+</html>

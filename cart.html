@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shopping Cart | VelocityWear</title>
+
+<link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+
+<header class="header">
+
+<a href="index.html" class="logo">
+VelocityWear
+</a>
+
+<nav>
+<a href="products.html">Products</a>
+<a href="cart.html">Cart</a>
+</nav>
+
+</header>
+
+<section class="cart-page">
+
+<div class="cart-items">
+
+<h2>Your Cart</h2>
+
+<div id="cartContainer"></div>
+
+</div>
+
+<div class="summary">
+
+<h2>Order Summary</h2>
+
+<div class="summary-row">
+<span>Subtotal</span>
+<span id="subtotal">$0</span>
+</div>
+
+<div class="summary-row">
+<span>Shipping</span>
+<span id="shipping">$15</span>
+</div>
+
+<div class="summary-row total">
+<span>Total</span>
+<span id="total">$0</span>
+</div>
+
+<div class="coupon">
+
+<input
+type="text"
+placeholder="Promo Code"
+id="couponInput">
+
+<button id="applyCoupon">
+Apply
+</button>
+
+</div>
+
+<a href="checkout.html">
+<button class="checkout-btn">
+Proceed To Checkout
+</button>
+</a>
+
+</div>
+
+</section>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>

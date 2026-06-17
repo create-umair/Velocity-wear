@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout | VelocityWear</title>
+
+<link rel="stylesheet" href="css/checkout.css">
+</head>
+
+<body>
+
+<header class="header">
+
+<a href="index.html" class="logo">
+VelocityWear
+</a>
+
+</header>
+
+<section class="checkout-container">
+
+<div class="checkout-form">
+
+<h2>Shipping Information</h2>
+
+<form id="checkoutForm">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="text" placeholder="Phone Number" required>
+
+<input type="text" placeholder="Street Address" required>
+
+<div class="row">
+
+<input type="text" placeholder="City" required>
+
+<input type="text" placeholder="Postal Code" required>
+
+</div>
+
+<input type="text" placeholder="Country" required>
+
+<h2>Payment Details</h2>
+
+<input type="text" placeholder="Card Holder Name" required>
+
+<input type="text" placeholder="Card Number" required>
+
+<div class="row">
+
+<input type="text" placeholder="MM/YY" required>
+
+<input type="text" placeholder="CVV" required>
+
+</div>
+
+<button type="submit">
+Place Order
+</button>
+
+</form>
+
+</div>
+
+<div class="order-summary">
+
+<h2>Order Summary</h2>
+
+<div id="summaryItems"></div>
+
+<div class="summary-row">
+<span>Total</span>
+<span id="checkoutTotal">$0</span>
+</div>
+
+</div>
+
+</section>
+
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.auth-box{
+background:white;
+padding:40px;
+width:350px;
+border-radius:10px;
+text-align:center;
+}
+
+.auth-box h1{
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ddd;
+}
+
+button{
+width:100%;
+padding:12px;
+background:black;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.tabs{
+display:flex;
+justify-content:space-between;
+margin-bottom:15px;
+}
+
+.tabs button{
+width:48%;
+background:#eee;
+color:black;
+}
